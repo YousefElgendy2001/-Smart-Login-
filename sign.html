@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-check p-5 w-75 text-center mx-auto">
+        <h1 class="pb-2">Smart Login System</h1>
+        <div class="form-group mb-3">
+          <label for="enterNameInput" class=""></label>
+          <input
+          oninput="validatSignUp(this)"
+
+            type="text"
+            id="enterNameInput"
+            class="form-control"
+            placeholder="Enter your name"
+          />
+
+          <label for="enterEmaliInput" class=""></label>
+          <input
+          oninput="validatSignUp(this)"
+
+            type="email"
+            id="enterEmailInput"
+            class="form-control"
+            placeholder="Enter your emali"
+          />
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="enterPasswordInput" class=""></label>
+          <input
+          oninput="validatSignUp(this)"
+
+            type="password"
+            id="enterPasswordInput"
+            class="form-control"
+            placeholder="Enter your password"
+          />
+          <div class="signUpButton">
+
+            <button onclick="signUp()" id="signUpBtn" class="btn w-100 mt-4" disabled >Sign Up</button>
+
+          </div>
+
+          <span id="eror"></span>
+        </div>
+
+        <p class="d-inline-block mt-3">You have an account?</p>
+        <a href="index.html" class="text-decoration-none">Signin</a>
+      </div>
+    </div>
+
+   
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

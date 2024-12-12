@@ -1,0 +1,88 @@
+body{
+  background-color: #24353f;
+  font-family: 'Titillium Web', sans-serif;
+  }
+  
+  h1{
+      color:  #17a2b8;
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+  .form-check{
+      box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, .5);
+  
+  }
+  input{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+  
+  .btn{
+      color:#17a2b8;
+      border-radius: 5px;
+      border-color: #17a2b8;
+      font-weight: 400px;
+  }
+  .btn:hover{
+      color: white;
+      background-color: #17a2b8;
+      border-color: #17a2b8;
+  }
+  p{
+  color: white;
+  }
+  
+  a{
+      color: white;
+  }
+  
+  h2{
+      color: white;
+      margin-left: 50px;
+  }
+  
+  .log{
+  margin-right: 50px;
+  background-color: #24353f;
+  border-radius: 5px ;
+  border-color: #ffc107;
+  color: white;
+  width: 75px;
+  }
+  
+  
+  .log:hover{
+      background-color: #ffc107;
+  }
+  
+  .name{
+      box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, .5);
+      width: 100%;
+      padding: 50px;
+      margin-top: 10rem;
+      margin-bottom: 3rem;
+  }
+      
+  
+  
+  
+  h3{
+  
+      color: #17a2b8;
+      font-size: 2.5rem;
+     
+  }
+  
